@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Delicious restaurant website with menu, prices, and contact information"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <title>Restaurant | Delicious Dining Experience</title>
+    <style>
+      /*
+        Enables smooth scrolling for anchor links globally.
+        Other base styles, responsive viewport management, and body height
+        are primarily handled by Tailwind CSS utilities within the React application
+        and the standard viewport meta tag.
+      */
+      html {
+        scroll-behavior: smooth; /* Enables smooth scrolling for anchor links */
+      }
+      /*
+        It's generally recommended to let Tailwind CSS manage body styling.
+        If specific body-level min-height is needed beyond what Tailwind's
+        `min-h-screen` provides on the root app element, it can be added here,
+        but typically it's not required when using Tailwind effectively.
+      */
+    </style>
+</head>
+<body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <!-- Mount point for React application -->
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</body>
+</html>
